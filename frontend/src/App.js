@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./styles.css";
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+const API_URL = 'http://127.0.0.1:5000';
 
 function App() {
   const [file, setFile] = useState(null);

@@ -4,7 +4,7 @@ from flask_cors import CORS  # Enable CORS for React frontend
 from compiler import compile_c_to_binary
 
 app = Flask(__name__)
-CORS(app, origins=['https://crossPlatformCCompiler.onrender.com'])  # Allow requests from the React frontend
+CORS(app)  # Allow requests from the React frontend
 
 @app.route("/compile", methods=["POST"])
 def compile():
@@ -47,5 +47,4 @@ def download(filename):
     return send_file(output_file, as_attachment=True)
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))
-    app.run(debug=True, host='0.0.0.0', port=port)
+    app.run(debug=True)
