@@ -1,0 +1,19 @@
+# Backend
+backend/__pycache__/
+backend/venv/
+backend/uploads/*
+backend/output/*
+!backend/uploads/.gitkeep
+!backend/output/.gitkeep
+backend/.env
+
+# Frontend
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.DS_Store
+
+# General
+.DS_Store
+*.pyc
