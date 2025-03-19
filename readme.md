@@ -16,7 +16,6 @@ A web-based cross-platform C compiler supporting multiple architectures includin
 
 ## Team
 - J. Supreeth kumar (192372021)
-- M. Deepika (192311027)
 
 ## Course
 CSA1427 - Compiler Design for SLR Parser
