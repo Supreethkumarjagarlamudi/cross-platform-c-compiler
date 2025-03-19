@@ -60,10 +60,6 @@ function App() {
             <h4>J. Supreeth kumar</h4>
             <p>Register No.: 192372021</p>
           </div>
-          <div className="person">
-            <h4>M. Deepika</h4>
-            <p>Register No.: 192311027</p>
-          </div>
         </div>
       </div>
 
